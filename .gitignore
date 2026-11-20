@@ -1,0 +1,15 @@
+# Jupyter and Python
+.ipynb_checkpoints/
+__pycache__/
+
+# Spark working files
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Large data stays outside the repo
+data/
+*.parquet
+
+# Mac
+.DS_Store

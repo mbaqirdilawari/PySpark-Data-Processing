@@ -1,0 +1,17 @@
+pickup_borough,zone_rank,pickup_zone,trips
+Bronx,1,Mott Haven/Port Morris,14447
+Bronx,2,West Concourse,11219
+Bronx,3,East Concourse/Concourse Village,6507
+Brooklyn,1,Downtown Brooklyn/MetroTech,93466
+Brooklyn,2,Brooklyn Heights,79004
+Brooklyn,3,Boerum Hill,65438
+EWR,1,Newark Airport,532
+Manhattan,1,Upper East Side South,3542619
+Manhattan,2,Midtown Center,3351261
+Manhattan,3,Upper East Side North,3201684
+Queens,1,JFK Airport,2561736
+Queens,2,LaGuardia Airport,2087908
+Queens,3,Sunnyside,111010
+Staten Island,1,Bloomfield/Emerson Hill,476
+Staten Island,2,Charleston/Tottenville,368
+Staten Island,3,Heartland Village/Todt Hill,343

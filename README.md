@@ -60,7 +60,7 @@ Requirements: Java 17 or 21, and Python 3.10 or newer.
 
 ## Pipeline
 
-1. **Load and standardize.** The monthly files do not all store each column with the same type, so each month is read separately, every column is cast to one agreed type, and all months are written once as a single Parquet dataset partitioned by `file_month`.
+1. **Load and standardize.** A schema check first confirms that all 12 monthly files store every column with the same type. As a safeguard, each month is still read separately and every column is cast to one agreed type, and all months are written once as a single Parquet dataset partitioned by `file_month`.
 2. **Transform.**
    * Column pruning: only the 15 needed columns are selected.
    * Filters, applied first: pickups inside 2019, distance above 0 and at most 100 miles, positive fare and total, 1 to 6 passengers, then 1 to 180 minutes and at most 80 mph.
